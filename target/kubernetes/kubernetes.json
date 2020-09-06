@@ -4,8 +4,8 @@
   "metadata" : {
     "annotations" : {
       "app.quarkus.io/vcs-url" : "https://github.com/Stywar/quarkus-security-agosto.git",
-      "app.quarkus.io/build-timestamp" : "2020-09-06 - 17:19:51 +0000",
-      "app.quarkus.io/commit-id" : "bedffb4d51641114adfd9ac22284e212a2b21e91"
+      "app.quarkus.io/build-timestamp" : "2020-09-06 - 19:20:32 +0000",
+      "app.quarkus.io/commit-id" : "d1b7e2aa77a0d4c18de362e5a8b0bff97ad078fa"
     },
     "labels" : {
       "app.kubernetes.io/name" : "aforo255-security",
@@ -19,8 +19,8 @@
   "metadata" : {
     "annotations" : {
       "app.quarkus.io/vcs-url" : "https://github.com/Stywar/quarkus-security-agosto.git",
-      "app.quarkus.io/build-timestamp" : "2020-09-06 - 17:19:51 +0000",
-      "app.quarkus.io/commit-id" : "bedffb4d51641114adfd9ac22284e212a2b21e91"
+      "app.quarkus.io/build-timestamp" : "2020-09-06 - 19:20:32 +0000",
+      "app.quarkus.io/commit-id" : "d1b7e2aa77a0d4c18de362e5a8b0bff97ad078fa"
     },
     "labels" : {
       "app.kubernetes.io/name" : "aforo255-security",
@@ -46,8 +46,8 @@
   "metadata" : {
     "annotations" : {
       "app.quarkus.io/vcs-url" : "https://github.com/Stywar/quarkus-security-agosto.git",
-      "app.quarkus.io/build-timestamp" : "2020-09-06 - 17:19:51 +0000",
-      "app.quarkus.io/commit-id" : "bedffb4d51641114adfd9ac22284e212a2b21e91"
+      "app.quarkus.io/build-timestamp" : "2020-09-06 - 19:20:32 +0000",
+      "app.quarkus.io/commit-id" : "d1b7e2aa77a0d4c18de362e5a8b0bff97ad078fa"
     },
     "labels" : {
       "app.kubernetes.io/name" : "aforo255-security",
@@ -67,8 +67,8 @@
       "metadata" : {
         "annotations" : {
           "app.quarkus.io/vcs-url" : "https://github.com/Stywar/quarkus-security-agosto.git",
-          "app.quarkus.io/build-timestamp" : "2020-09-06 - 17:19:51 +0000",
-          "app.quarkus.io/commit-id" : "bedffb4d51641114adfd9ac22284e212a2b21e91"
+          "app.quarkus.io/build-timestamp" : "2020-09-06 - 19:20:32 +0000",
+          "app.quarkus.io/commit-id" : "d1b7e2aa77a0d4c18de362e5a8b0bff97ad078fa"
         },
         "labels" : {
           "app.kubernetes.io/name" : "aforo255-security",

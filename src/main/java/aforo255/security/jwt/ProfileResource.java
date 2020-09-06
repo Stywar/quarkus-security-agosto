@@ -23,7 +23,7 @@ public class ProfileResource {
 	@Produces(MediaType.TEXT_PLAIN)
 	public String hello() {
 		
-		return "Mi nombres es Stywar ";
+		return "Mi nombres es Stywar  Vargas chino ";
 	}
 	
 	@POST
