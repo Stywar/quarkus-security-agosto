@@ -4,6 +4,7 @@ import java.util.HashMap;
 
 import javax.annotation.security.PermitAll;
 import javax.inject.Inject;
+import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
 import javax.ws.rs.POST;
 import javax.ws.rs.Path;
@@ -11,6 +12,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 
+import aforo255.security.jwt.model.Security;
 import aforo255.security.jwt.service.TokenService;
 
 @Path("/profile")
@@ -26,18 +28,19 @@ public class ProfileResource {
 		return "Mi nombres es Stywar  Vargas chino ";
 	}
 	
+	@Path("/security")
 	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	@PermitAll
-	public HashMap<String, String> getToken(@QueryParam("username") String username ,
-			@QueryParam("password") String password )
+	public HashMap<String, String> getToken(Security security )
 	{
-		//Tarea para el proximo Domingo 13 Setiembre
+		// Vaidar de BD que el usuario exista 
 		String email="ObtenerBD";		
-		final String token = service.generateToken(username, email);
+		final String token = service.generateToken(security.getUsername(), email);
 		
 		return new HashMap<String, String>() {{
-			put ("token",token);
+			put ("access_token",token);
 			
 		}};
 		

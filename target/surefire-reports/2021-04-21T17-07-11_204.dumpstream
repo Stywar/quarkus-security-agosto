@@ -1,0 +1,4 @@
+# Created at 2021-04-21T17:07:12.342
+Boot Manifest-JAR contains absolute paths in classpath 'D:\JAVA\Clases\Quarkus\Febrero2020\aforo255-security\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
