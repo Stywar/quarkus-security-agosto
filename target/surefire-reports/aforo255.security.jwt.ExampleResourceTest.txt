@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: aforo255.security.jwt.ExampleResourceTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.245 s - in aforo255.security.jwt.ExampleResourceTest
