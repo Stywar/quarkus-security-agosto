@@ -5,7 +5,7 @@ metadata:
   labels:
     app: service-security
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: service-security
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: service-security
-        image: antony0618/aforo255-security:v2.#{Build.BuildId}#
+        image: registrybankaforo255.azurecr.io/security-img
         ports:
         - containerPort: 8080
       imagePullSecrets:
