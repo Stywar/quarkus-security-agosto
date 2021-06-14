@@ -42,8 +42,7 @@ public class ProfileResource {
 		return new HashMap<String, String>() {{
 			put ("access_token",token);
 			
-		}};
-		
+		}};	
 		
 	}
 	
