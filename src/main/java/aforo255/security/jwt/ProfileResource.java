@@ -25,7 +25,7 @@ public class ProfileResource {
 	@Produces(MediaType.TEXT_PLAIN)
 	public String hello() {
 		
-		return "Junio 13062021 k8s";
+		return "JULIO 25072021 k8s";
 	}
 	
 	@Path("/security")
